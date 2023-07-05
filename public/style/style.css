@@ -23,21 +23,6 @@
   background-repeat: no-repeat !important;
 }
 /*
-
-.counter {
-  width: 50%;
-  justify-content: space-between;
-  align-items: center;
-}
-.counter-iteam {
-  align-items: center;
-  gap: 20px;
-}
-.counter-iteam h4 {
-  font-size: 25px;
-  color: var(--text-light);
-  line-height: 80%;
-}
 .counter-iteam h3 {
   font-size: 60px;
   line-height: 80%;
