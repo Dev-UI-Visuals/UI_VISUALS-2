@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./components/Header') %>
+    <title>UI Visuals</title>
+  </head>
+  <body>
+    <div class="nav fixed flex-row">
+      <!-- Div nav-img contain headding nav images  -->
+      <div class="nav-img flex-row">
+        <img src="/image/DEV_BLACK.png" class="dev" />
+        <div class="nav-line"></div>
+        <img src="/image/UI_BLACK.png" class="ui" />
+      </div>
+      <!-- Div nav-items contain links for scroll navigation -->
+      <div class="nav-items flex-row">
+        <a href="/"> <h4>Home</h4></a>
+        <a href="/"> <h4>About</h4></a>
+        <a href="/"> <h4>Events</h4></a>
+        <a href="/"> <h4>Team</h4></a>
+        <a href="/"> <h4>Contact</h4></a>
+      </div>
+    </div>
+    <div class="error-page flex-col">
+      <img src="/image/Error_Man.png"/>
+      <h3>OOPS! PAGE NOT FOUND</h3>
+      <h5>Sorry the page you are looking for cannot be found</h5>
+      <a href="/"><button>Back to Home Page</button></a>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollToPlugin.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/animation.js"></script>
+  <script src="js/script.js"></script>
+</html>
