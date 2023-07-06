@@ -23,19 +23,7 @@
   background-repeat: no-repeat !important;
 }
 /*
-.counter-iteam h3 {
-  font-size: 60px;
-  line-height: 80%;
-  color: var(--text-main);
-}
-.black-circle-dots {
-  position: absolute;
-  right: 0%;
-  top: 110%;
-  object-fit: contain;
-  width: 150px;
-  display: none;
-}
+
 /* Department */
 .departments {
   background: linear-gradient(var(--primary-main), var(--primary-mid));
@@ -285,36 +273,7 @@
 }
 
 /* WHY 8 */
-.why {
-  background: linear-gradient(var(--primary-mid), var(--primary-main));
-  width: 80%;
-  padding: 0px 10% 50px 10%;
-  gap: 40px;
-}
-.why h2 {
-  font-size: 60px;
-  line-height: 80%;
-  letter-spacing: -2px;
-  background-image: linear-gradient(var(--text-main), var(--text-light));
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-.why-item-container {
-  flex-wrap: wrap;
-  gap: 1%;
-  justify-content: center;
-}
-.why-item {
-  margin-top: 50px;
-  width: 500px;
-  gap: 10px;
-}
-.why-item img {
-  width: 40px;
-  object-fit: contain;
-}
+
 .why-item h3 {
   color: var(--secondary-light);
   font-size: 30px;
@@ -724,4 +683,4 @@
 .error-page button:hover {
   color: var(--primary-light);
   background-color: var(--text-main);
-} */
+} 
