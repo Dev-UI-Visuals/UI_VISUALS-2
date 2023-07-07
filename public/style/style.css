@@ -25,32 +25,6 @@
 /*
 
 /* Department */
-.departments {
-  background: linear-gradient(var(--primary-main), var(--primary-mid));
-  width: 100%;
-  align-items: center;
-  padding: 50px 0px;
-  gap: 40px;
-}
-.departments h2 {
-  font-size: 60px;
-  color: var(--secondary-main);
-}
-.departments-container {
-  width: 80%;
-  margin: 0px auto;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-.department-item {
-  width: 210px;
-  background-color: #eaf1e6;
-  padding: 20px;
-  align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-  gap: 10px;
-}
 .department-item img {
   width: 40px;
   object-fit: contain;
@@ -272,16 +246,6 @@
   color: var(--text-main);
 }
 
-/* WHY 8 */
-
-.why-item h3 {
-  color: var(--secondary-light);
-  font-size: 30px;
-}
-.why-item p {
-  line-height: 120%;
-  color: var(--text-main);
-}
 /* Event */
 .event {
   background: linear-gradient(var(--primary-mid), var(--primary-main));
