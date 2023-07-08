@@ -22,22 +22,7 @@
   background-position: center center !important;
   background-repeat: no-repeat !important;
 }
-/*
 
-/* Department */
-.department-item img {
-  width: 40px;
-  object-fit: contain;
-}
-.department-item h4 {
-  font-size: 20px;
-  color: var(--text-main);
-}
-.department-item p {
-  line-height: 120%;
-  font-size: 16px;
-  color: var(--text-light);
-}
 /*Team */
 .team {
   padding: 40px 0px;
