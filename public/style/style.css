@@ -232,33 +232,8 @@
 }
 
 /* Event */
-.event {
-  background: linear-gradient(var(--primary-mid), var(--primary-main));
-  align-items: center;
-  gap: 30px;
-  padding: 50px 0px;
-  height: 100%;
-}
-.major-event {
-  background-color: #e2e2e2;
-  padding: 10px 10px;
-  width: 30vw;
-}
-.major-event img {
-  height: 300px;
-  object-fit: cover;
-}
-.major-event h3 {
-  font-size: 22px;
-  color: var(--text-main);
-}
-.major-event h5 {
-  font-size: 15px;
-}
 .event-view-button {
   border: none;
-  border-radius: 0px;
-  padding: 10px 30px;
   background-color: var(--text-light);
   cursor: pointer;
   transition: 0.5s;
@@ -268,12 +243,7 @@
 .event-view-button:hover {
   background-color: var(--text-main);
 }
-.event h1 {
-  font-size: 90px;
-  color: var(--secondary-main);
-  letter-spacing: -5px;
-  line-height: 80%;
-}
+
 .event h2 {
   text-align: center;
   font-size: 40px;
@@ -286,30 +256,11 @@
   letter-spacing: -1px;
 }
 .top-events {
-  width: 80%;
-  margin: 0px auto;
   gap: 2%;
   flex-wrap: wrap;
   justify-content: center;
 }
-.single-event {
-  margin-top: 25px;
-  width: 330px;
-  max-height: 100%;
-  background-color: #e2e2e2;
-  justify-content: space-between;
-  min-height: 250px;
-}
-.single-event img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-.single-event-content {
-  padding: 15px 20px;
 
-  gap: 2px;
-}
 .single-event-content button {
   background-color: var(--text-light);
   color: var(--primary-light);
@@ -320,38 +271,6 @@
   margin: 0px auto;
   transition: 0.5s;
   margin-top: 10px;
-}
-.event-title {
-  position: absolute;
-  transform: translateY(50%);
-  width: 200px;
-  padding: 10px 0px;
-  background-color: #fafafa;
-  text-align: center;
-}
-.event-title h3 {
-  font-size: 16px;
-  color: var(--text-main);
-  line-height: 100%;
-}
-.single-event h5 {
-  font-size: 16px;
-  color: var(--text-main);
-  line-height: 120%;
-}
-.single-event-content h3{
-  font-size: 18px;
-  color: var(--text-main);
-  line-height: 100%; 
-}
-.events-icons {
-  color: var(--text-main);
-  gap: 5px;
-  font-size: 14px;
-  align-items: center;
-}
-.events-icons i {
-  font-size: 16px;
 }
 .single-event a {
   margin: 0px auto;

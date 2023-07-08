@@ -1,25 +1,25 @@
-<div class="event flex-col" id="event">
-  <h1 id="event-fade">Events</h1>
-  <div class="top-events flex-row" id="top-events">
+<div class="bg-gradient-to-br from-primary-mid via-primary-main px-[50px]  flex flex-col items-center gap-[30px]" id="event">
+  <h1 class="text-[90px] font-b text-secondary-main text-center tracking-[-5px]" id="event-fade">Events</h1>
+  <div class="w-[80%] mx-[auto] flex flex-row gap-[2%]" id="top-events">
     <% for (var i = 0; i < 3; i++ ) { %>
-    <div class="single-event flex-col">
-      <div class="event-title">
-        <h3><%= data.events[i].type%></h3>
+    <div class="w-[330px] min-h-[250px] mt-[25px] bg-[#e2e2e2] flex flex-col justify-start">
+      <div class="w-[200px] py-[10px] bg-[#fafafa] absolute translate-y-[50%] text-center">
+        <h3 class="font-md text-xs text-text-main leading-[150%]"><%= data.events[i].type%></h3>
       </div>
-      <img src="<%= data.events[i].profileImage %>" />
-      <div class="single-event-content flex-col">
-        <h3><%= data.events[i].name %></h3>
-        <div class="flex-row events-icons">
-          <i class="uil uil-location-point"></i>
-          <h5 style="font-size: 14px"><%= data.events[i].location %></h5>
+      <img src="<%= data.events[i].profileImage %>" class="w-[100%] h-[200px] object-cover"/>
+      <div class="px-[20px] py-[15px] flex flex-col gap-[2px]">
+        <h3 class="font-md text-text-main text-sm"><%= data.events[i].name %></h3>
+        <div class="flex flex-row items-center gap-[5px] text-text-main">
+          <i class="uil uil-location-point text-rg"></i>
+          <h5 class="text-xxs"><%= data.events[i].location %></h5>
         </div>
-        <div class="flex-row events-icons">
-          <i class="uil uil-calendar-alt"></i>
-          <h5 style="font-size: 14px"><%= data.events[i].date %></h5>
+        <div class="flex flex-row items-center gap-[5px] text-text-main">
+          <i class="uil uil-calendar-alt text-rg"></i>
+          <h5 class="text-xxs"><%= data.events[i].date %></h5>
         </div>
-        <h5><%= data.events[i].description[0].substring(0, 220) %>..</h5>
-        <a href="/event/<%= data.events[i].id %>" target="_blank">
-          <button>Read More</button>
+        <h5 class="text-xs text-text-main min-h-[190px]"><%= data.events[i].description[0].substring(0, 220) %>..</h5>
+        <a href="/event/<%= data.events[i].id %>" class="mx-[auto] mt-[10px]" target="_blank">
+          <button class="bg-text-light hover:bg-text-mid duration-500 px-[30px] py-[10px] text-xxs text-primary-main">Read More</button>
         </a>
       </div>
     </div>
