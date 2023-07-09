@@ -13,15 +13,15 @@
     <div class="flex flex-col items-center gap-[5px]">
       <img
         src="/image/team/Dipesh_Shrestha.png"
-        class="w-[100%] h-[200px] object-contain"
+        class="h-[180px] aspect-square object-cover"
       />
-      <h3 class="font-md text-text-main text-sm leading-[120%]">
+      <h3 class="font-r text-text-main text-sm leading-[120%]">
         Mr. Dipesh Shrestha
       </h3>
-      <h4 class="font-r text-text-light text-xs leading-[120%]">
+      <h4 class="font-l text-text-light text-xs leading-[120%]">
         DevCorps Head
       </h4>
-      <div class="flex flex-row gap-[10px]">
+      <div class="flex flex-row gap-[10px] items-center">
         <a
           href="https://www.linkedin.com/in/dipeshshrestha1221/"
           target="_blank"
@@ -38,15 +38,15 @@
     <div class="flex flex-col items-center gap-[5px]">
       <img
         src="https://lh3.googleusercontent.com/a-/AD_cMMQFqvkX9XAQlcmqa8Df0XOcz2pjg4ncwgrf08hSys0D6Q=s250"
-        class="w-[100%] h-[200px] object-contain"
+        class="h-[180px] aspect-square object-cover"
       />
-      <h3 class="font-md text-text-main text-sm leading-[120%]">
+      <h3 class="font-r text-text-main text-sm leading-[120%]">
         Mr. Abhisek Sitaula
       </h3>
-      <h4 class="font-r text-text-light text-xs leading-[120%]">
+      <h4 class="font-l text-text-light text-xs leading-[120%]">
         Community Mentor
       </h4>
-      <div class="flex flex-row gap-[10px]">
+      <div class="flex flex-row gap-[10px] items-center">
         <a
           href="https://www.linkedin.com/in/sujata-thapa-625397169/"
           target="_blank"
@@ -61,45 +61,51 @@
       </div>
     </div>
   </div>
-  <h2 class="text-xxxl text-text-mid font-sb tracking-[-2px]">Our Steering Leaders</h2>
-  <div class="flex-row leader">
+  <h2 class="text-xxxl text-text-mid font-sb tracking-[-2px]">
+    Our Steering Leaders
+  </h2>
+  <div
+    class="w-[60%] mx-auto flex flex-row flex-wrap gap-[50px] justify-center"
+  >
     <% for (var i = 0; i < data.leaders.length; i++ ) { %>
-    <div class="leaders flex-col">
-      <div class="links-card">
+    <div class="w-[180px] flex flex-col gap-[5px] items-center">
+      <img src="<%= data.leaders[i].img %>" class="w-[100%] aspect-square object-cover" />
+      <h3 class="font-r text-text-main text-sm leading-[120%]"><%= data.leaders[i].name %></h3>
+      <h4 class="font-l text-text-light text-xs leading-[120%]">Steering Leader</h4>
+      <div class="flex flex-row gap-[10px] items-center">
         <a href="<%= data.leaders[i].linkedInLink %>" target="_blank"
-          ><i class="uil uil-linkedin"></i
+          ><i class="uil uil-linkedin text-[24px] text-text-main"></i
         ></a>
         <a href="<%= data.leaders[i].mailLink %>" target="_blank">
-          <i class="uil uil-envelope"></i
+          <i class="uil uil-envelope text-[24px] text-text-main"></i
         ></a>
         <a href="<%= data.leaders[i].instagramLink %>" target="_blank"
-          ><i class="uil uil-instagram"></i
+          ><i class="uil uil-instagram text-[24px] text-text-main"></i
         ></a>
       </div>
-      <img src="<%= data.leaders[i].img %>" />
-      <h5><%= data.leaders[i].name %></h5>
-      <h4>Steering Leader</h4>
     </div>
     <% } %>
   </div>
-  <h2 class="text-xxxl text-text-mid font-sb tracking-[-2px]">Department Heads</h2>
-  <div class="flex-row heads">
+  <h2 class="text-xxxl text-text-mid font-sb tracking-[-2px]">
+    Department Heads
+  </h2>
+  <div class="w-[70%] mx-auto flex flex-row flex-wrap gap-[50px] justify-center">
     <% for (var i = 0; i < data.heads.length; i++ ) { %>
-    <div class="department-team flex-col">
-      <div class="department-links-card">
+    <div class="w-[180px] flex flex-col gap-[5px] items-center">
+      <img src="<%= data.heads[i].img %>"  class="w-[100%] aspect-square object-cover" />
+      <h3 class="font-r text-text-main text-sm leading-[120%]"><%= data.heads[i].name %></h3>
+      <h4 class="font-l text-text-light text-xs leading-[120%]"><%= data.heads[i].department %></h4>
+      <div class="flex flex-row gap-[10px] items-center">
         <a href="<%= data.heads[i].linkedInLink %>" target="_blank"
-          ><i class="uil uil-linkedin"></i
+          ><i class="uil uil-linkedin text-[24px] text-text-main"></i
         ></a>
         <a href="<%= data.heads[i].mailLink %>" target="_blank">
-          <i class="uil uil-envelope"></i
+          <i class="uil uil-envelope text-[24px] text-text-main"></i
         ></a>
         <a href="<%= data.heads[i].instagramLink %>" target="_blank"
-          ><i class="uil uil-instagram"></i
+          ><i class="uil uil-instagram text-[24px] text-text-main"></i
         ></a>
       </div>
-      <img src="<%= data.heads[i].img %>" />
-      <h5><%= data.heads[i].name %></h5>
-      <h4><%= data.heads[i].department %></h4>
     </div>
     <% } %>
   </div>

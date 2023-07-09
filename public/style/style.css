@@ -90,13 +90,6 @@
   font-size: 16px;
 }
 
-.leader {
-  width: 60%;
-  margin: 0px auto;
-  flex-wrap: wrap;
-  gap: 50px;
-  justify-content: center;
-}
 .heads {
   width: 60%;
   margin: 0px auto;
