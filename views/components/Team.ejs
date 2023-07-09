@@ -1,44 +1,67 @@
-<div class="bg-gradient-to-b from-primary-mid to-primary-main px-[50px] py-[50px] flex flex-col items-center gap-[30px]" id="team">
-  <h1 class="font-b text-center text-[90px] text-secondary-main leading-[75%] tracking-[-2px] truncate">Meet Our<br /><span id="team-fade" class="block">Team</span></h1>
-  <div class="teacher flex-row">
-    <div class="mentor flex-col">
-      <div class="links-teacher">
+<div
+  class="bg-gradient-to-b from-primary-mid to-primary-main px-[50px] py-[50px] flex flex-col items-center gap-[30px]"
+  id="team"
+>
+  <h1
+    class="font-b text-center text-[90px] text-secondary-main leading-[75%] tracking-[-2px] truncate"
+  >
+    Meet Our<br /><span id="team-fade" class="block">Team</span>
+  </h1>
+  <div
+    class="w-[50%] mx-[auto] my-[40px] flex flex-row items-center justify-between"
+  >
+    <div class="flex flex-col items-center gap-[5px]">
+      <img
+        src="/image/team/Dipesh_Shrestha.png"
+        class="w-[100%] h-[200px] object-contain"
+      />
+      <h3 class="font-md text-text-main text-sm leading-[120%]">
+        Mr. Dipesh Shrestha
+      </h3>
+      <h4 class="font-r text-text-light text-xs leading-[120%]">
+        DevCorps Head
+      </h4>
+      <div class="flex flex-row gap-[10px]">
         <a
           href="https://www.linkedin.com/in/dipeshshrestha1221/"
           target="_blank"
-          ><i class="uil uil-linkedin"></i
+          ><i class="uil uil-linkedin text-[24px] text-text-main"></i
         ></a>
         <a href="mailto:dipesh.shrestha@heraldcollege.edu.np" target="_blank">
-          <i class="uil uil-envelope"></i
+          <i class="uil uil-envelope text-[24px] text-text-main"></i
         ></a>
         <a href="https://www.instagram.com/username__dipesh.sh/" target="_blank"
-          ><i class="uil uil-instagram"></i
+          ><i class="uil uil-instagram text-[24px] text-text-main"></i
         ></a>
       </div>
-      <img src="/image/team/Dipesh_Shrestha.png" />
-      <h4>DevCorps Head</h4>
-      <h5>Mr. Dipesh Shrestha</h5>
     </div>
-    <div class="mentor flex-col">
-      <div class="links-teacher">
+    <div class="flex flex-col items-center gap-[5px]">
+      <img
+        src="https://lh3.googleusercontent.com/a-/AD_cMMQFqvkX9XAQlcmqa8Df0XOcz2pjg4ncwgrf08hSys0D6Q=s250"
+        class="w-[100%] h-[200px] object-contain"
+      />
+      <h3 class="font-md text-text-main text-sm leading-[120%]">
+        Mr. Abhisek Sitaula
+      </h3>
+      <h4 class="font-r text-text-light text-xs leading-[120%]">
+        Community Mentor
+      </h4>
+      <div class="flex flex-row gap-[10px]">
         <a
           href="https://www.linkedin.com/in/sujata-thapa-625397169/"
           target="_blank"
-          ><i class="uil uil-linkedin"></i
+          ><i class="uil uil-linkedin text-[24px] text-text-main"></i
         ></a>
         <a href="mailto:sujata.thapa@heraldcollege.edu.np" target="_blank">
-          <i class="uil uil-envelope"></i
+          <i class="uil uil-envelope text-[24px] text-text-main"></i
         ></a>
         <a href="https://www.instagram.com/sujata3t1/" target="_blank"
-          ><i class="uil uil-instagram"></i
+          ><i class="uil uil-instagram text-[24px] text-text-main"></i
         ></a>
       </div>
-      <img src="/image/team/Dipesh_Shrestha.png" />
-      <h4>Community Mentor</h4>
-      <h5>Mr. Abhisek Sitaula</h5>
     </div>
   </div>
-  <h2>Our Steering Leaders</h2>
+  <h2 class="text-xxxl text-text-mid font-sb tracking-[-2px]">Our Steering Leaders</h2>
   <div class="flex-row leader">
     <% for (var i = 0; i < data.leaders.length; i++ ) { %>
     <div class="leaders flex-col">
@@ -59,7 +82,7 @@
     </div>
     <% } %>
   </div>
-  <h2>Department Head</h2>
+  <h2 class="text-xxxl text-text-mid font-sb tracking-[-2px]">Department Heads</h2>
   <div class="flex-row heads">
     <% for (var i = 0; i < data.heads.length; i++ ) { %>
     <div class="department-team flex-col">
@@ -80,7 +103,7 @@
     </div>
     <% } %>
   </div>
-  <h2>Members</h2>
+  <h2 class="text-xxxl text-text-mid font-sb tracking-[-2px]">Members</h2>
   <div class="swiper member-swiper" style="width: 70%" id="member">
     <div class="swiper-wrapper member-swiper-wrapper">
       <% for (var i = 0; i < data.members.length; i++ ) { %>

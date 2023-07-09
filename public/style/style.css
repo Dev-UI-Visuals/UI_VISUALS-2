@@ -34,12 +34,6 @@
 .team h1 span {
   display: block;
 }
-.teacher {
-  align-items: center;
-  width: 50%;
-  margin: 40px auto;
-  justify-content: space-between;
-}
 .links-teacher {
   width: 200px;
   position: absolute;
