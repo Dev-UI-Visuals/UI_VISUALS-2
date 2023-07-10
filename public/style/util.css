@@ -77,10 +77,6 @@ a {
   z-index: 0;
 }
 
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  content: "" !important;
-}
 
 
 .member-swiper .swiper-button-prev,
