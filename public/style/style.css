@@ -194,21 +194,7 @@
 .member-swiper-wrapper {
   margin-left: -1px;
 }
-.member {
-  width: 200px;
-  height: 210px;
-  align-items: center;
-  justify-content: space-between;
-}
-.member img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-}
-.member h5 {
-  font-size: 16px;
-  color: var(--text-main);
-}
+
 
 /* Testonomial */
 .testonomial {
