@@ -132,16 +132,16 @@
       <div class="swiper-slide">
         <div class="bg-primary-main w-[200px] h-[210px] flex flex-col items-center justify-between">
           <img src="<%= data.members[i].img %>" class="w-[180px] aspect-square object-cover"/>
-          <h5><%= data.members[i].name %></h5>
+          <h5 class="font-r text-xs text-text-main"><%= data.members[i].name %></h5>
         </div>
       </div>
       <% } %>
     </div>
     <div class="swiper-button-prev">
-      <i class="uil uil-angle-left-b"></i>
+      <i class="uil uil-angle-left-b text-text-light bg-primary-main"></i>
     </div>
-    <div class="swiper-button-next">
-      <i class="uil uil-angle-right-b"></i>
+    <div class="swiper-button-next mr-[5px]">
+      <i class="uil uil-angle-right-b text-text-light bg-primary-main"></i>
     </div>
   </div>
 </div>
