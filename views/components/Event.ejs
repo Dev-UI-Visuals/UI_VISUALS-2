@@ -3,9 +3,6 @@
   <div class="w-[80%] mx-[auto] flex flex-row gap-[2%]" id="top-events">
     <% for (var i = 0; i < 3; i++ ) { %>
     <div class="w-[330px] min-h-[250px] mt-[25px] bg-[#e2e2e2] flex flex-col justify-start">
-      <div class="w-[200px] py-[10px] bg-[#fafafa] absolute translate-y-[50%] text-center">
-        <h3 class="font-md text-xs text-text-main leading-[150%]"><%= data.events[i].type%></h3>
-      </div>
       <img src="<%= data.events[i].profileImage %>" class="w-[100%] h-[200px] object-cover"/>
       <div class="px-[20px] py-[15px] flex flex-col gap-[2px]">
         <h3 class="font-md text-text-main text-sm"><%= data.events[i].name %></h3>

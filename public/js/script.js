@@ -1,6 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrollToPlugin);
 
+
 var moreEvents = [
     {
         "id": "herald-code-brisk-hackathon",
@@ -108,9 +109,6 @@ function seeMoreEvents(isMore) {
     if (isMore) {
         for (let i = 3; i < moreEvents.length ; i++) {
             EventsElement.innerHTML += `<div class="w-[330px] min-h-[250px] mt-[25px] bg-[#e2e2e2] flex flex-col justify-start">
-            <div class="w-[200px] py-[10px] bg-[#fafafa] absolute translate-y-[50%] text-center">
-              <h3 class="font-md text-xs text-text-main leading-[150%]">${moreEvents[i].type}</h3>
-            </div>
             <img src="${moreEvents[i].profileImage}" class="w-[100%] h-[200px] object-cover"/>
             <div class="px-[20px] py-[15px] flex flex-col gap-[2px]">
             <h3 class="font-md text-text-main text-sm">${moreEvents[i].name}</h3>
