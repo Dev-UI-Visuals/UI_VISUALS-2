@@ -114,16 +114,19 @@ var navElements = document.getElementById("#nav");
 window.addEventListener('scroll', function () {
     const offset = window.pageYOffset;
     if (offset > 100 && offset < 600) {
-        nav.classList.add('half-nav')
-        nav.classList.remove('white-nav')
+        nav.classList.add('bg-nav-light')
+        nav.classList.remove('bg-transparent')
+        nav.classList.remove('bg-nav-main')
     }
     else if (offset >= 600) {
-        nav.classList.add('white-nav')
-        nav.classList.remove('half-nav')
+        nav.classList.add('bg-nav-main')
+        nav.classList.remove('bg-nav-light')
+        nav.classList.remove('bg-transparent')
     }
     else {
-        nav.classList.remove('white-nav')
-        nav.classList.remove('half-nav')
+        nav.classList.add('bg-transparent')
+        nav.classList.remove('bg-nav-main')
+        nav.classList.remove('bg-nav-light')
     }
 });
 var departmentCounter = document.getElementById("department-counter");

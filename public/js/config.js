@@ -19,7 +19,9 @@ tailwind.config = {
         'secondary-dark': "#8a8a8a",
         'text-main': "#3a3a3c",
         'text-mid': "#585858",
-        'text-light': '#6b7070'
+        'text-light': '#6b7070',
+        'nav-main':'rgb(250, 250, 250,1)',
+        'nav-light':'rgb(250, 250, 250,0.5)',
       },
       fontSize: {
         xxxxl:"60px",
