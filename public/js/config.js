@@ -21,7 +21,7 @@ tailwind.config = {
         'text-mid': "#585858",
         'text-light': '#6b7070',
         'nav-main':'rgb(250, 250, 250,1)',
-        'nav-light':'rgb(250, 250, 250,0.5)',
+        'nav-light':'rgb(250, 250, 250,0.7)',
       },
       fontSize: {
         xxxxl:"60px",
