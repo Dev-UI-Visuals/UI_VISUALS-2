@@ -33,7 +33,8 @@ tailwind.config = {
         rg:"20px",
         sm: "18px",
         xs: "16px",
-        xxs: "14px"
+        xxs: "14px",
+        xxxs:"12px"
       },
       fontWeight:{
         b:'800',

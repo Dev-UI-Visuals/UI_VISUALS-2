@@ -5,7 +5,7 @@
 >
   <!-- div for nav bar -->
   <div
-    class="w-[100%] py-[20px] px-[10%] z-[4] duration-500 fixed top-0 flex flex-row justify-between items-center bg-transparent"
+    class="w-[100%] py-[20px] px-[10%] z-[4] duration-500 fixed top-0 flex flex-col md:flex-row justify-between gap-[20px] items-center bg-transparent"
     id="nav"
   >
     <!-- Div nav-img contain headding nav images  -->
@@ -55,12 +55,12 @@
   >
     <img
       src="/image/UI_BLACK.png"
-      class="w-[400px] object-contain mt-[50px] mb-[20px] my-[auto]"
+      class="lg:w-[400px] md:w-[300px] w-[200px] object-contain mt-[50px] mb-[20px] my-[auto]"
     />
-    <h3 class="text-rg font-md text-text-main">"Leading Through Design"</h3>
+    <h3 class="md:text-rg text-sm font-md text-text-main">"Leading Through Design"</h3>
     <button
       onclick="scrollDown('#contact')"
-      class="px-[25px] py-[10px] mt-[10px] border-none cursor-pointer bg-secondary-light transition duration-500 text-primary-light text-xxs font-medium rounded-md hover:bg-secondary-main"
+      class="px-[25px] py-[10px] mt-[10px] border-none cursor-pointer bg-secondary-light transition duration-500 text-primary-light  md:text-xxs text-xxxs font-medium rounded-md hover:bg-secondary-main"
     >
       Contact Us
     </button>
