@@ -29,16 +29,16 @@ var MemberSwiper = new Swiper(".member-swiper", {
         prevEl: ".swiper-button-prev",
     },
     breakpoints: {
-        1000: {
+        1200: {
             slidesPerView: 5,
             spaceBetween: 0,
         },
-        800: {
+        1000: {
             slidesPerView: 4,
             spaceBetween: 0,
         },
         600: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 0,
         },
         400: {

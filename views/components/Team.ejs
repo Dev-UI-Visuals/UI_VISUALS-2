@@ -3,22 +3,22 @@
   id="team"
 >
   <h1
-    class="font-b text-center text-[90px] text-secondary-main leading-[75%] tracking-[-2px] truncate"
+    class="font-b text-center lg:text-[90px] md:text-[80px] sm:text-[75px] text-[50px] text-secondary-main leading-[75%] tracking-[-2px] truncate"
   >
     Meet Our<br /><span id="team-fade" class="block">Team</span>
   </h1>
   <div
-    class="w-[50%] mx-[auto] my-[40px] flex flex-row items-center justify-between"
+    class="lg:w-[50%] md:w-[70%] sm:w-[80%] w-[70%] mx-[auto] my-[40px] flex sm:flex-row flex-col items-center justify-between gap-[30px]"
   >
     <div class="flex flex-col items-center gap-[5px]">
       <img
         src="/image/team/Dipesh_Shrestha.png"
-        class="h-[180px] aspect-square object-cover"
+        class="h-[180px] max-[400px]:h-[120px] aspect-square object-cover"
       />
-      <h3 class="font-r text-text-main text-sm leading-[120%]">
+      <h3 class="font-r text-text-main sm:text-sm  text-xs leading-[120%]">
         Mr. Dipesh Shrestha
       </h3>
-      <h4 class="font-r text-text-light text-xs leading-[120%]">
+      <h4 class="font-r text-text-light sm:text-xs text-xxs  leading-[120%]">
         DevCorps Head
       </h4>
       <div class="flex flex-row gap-[10px] items-center">
@@ -38,12 +38,12 @@
     <div class="flex flex-col items-center gap-[5px]">
       <img
         src="/image/team/Abhisek_Sitaula.png"
-        class="h-[180px] aspect-square object-cover"
+        class="h-[180px] max-[400px]:h-[120px] aspect-square object-cover"
       />
-      <h3 class="font-r text-text-main text-sm leading-[120%]">
+      <h3 class="font-r text-text-main  sm:text-sm  text-xs leading-[120%]">
         Mr. Abhisek Sitaula
       </h3>
-      <h4 class="font-r text-text-light text-xs leading-[120%]">
+      <h4 class="font-r text-text-light sm:text-xs text-xxs leading-[120%]">
         Community Mentor
       </h4>
       <div class="flex flex-row gap-[10px] items-center">
@@ -61,22 +61,22 @@
       </div>
     </div>
   </div>
-  <h2 class="text-xxxl text-text-mid font-sb tracking-[-2px]">
+  <h2 class="md:text-xxxxl sm:text-xxxl text-lg text-text-mid font-sb tracking-[-2px]">
     Our Steering Leaders
   </h2>
   <div
-    class="w-[60%] mx-auto flex flex-row flex-wrap gap-[50px] justify-center"
+    class="lg:w-[70%] md:w-[80%] sm:w-[90%] w-[100%] mx-auto flex flex-row flex-wrap gap-[50px] justify-center"
   >
     <% for (var i = 0; i < data.leaders.length; i++ ) { %>
-    <div class="w-[180px] flex flex-col gap-[5px] items-center">
+    <div class="w-[180px] max-[600px]:w-[150px] max-[400px]:w-[110px] flex flex-col gap-[5px] items-center">
       <img
         src="<%= data.leaders[i].img %>"
         class="w-[100%] aspect-square object-cover"
       />
-      <h3 class="font-r text-text-main text-xs leading-[120%]">
+      <h3 class="font-r text-text-main sm:text-xs text-xxs text-center leading-[120%]">
         <%= data.leaders[i].name %>
       </h3>
-      <h4 class="font-r text-text-light text-xxs leading-[120%]">
+      <h4 class="font-r text-text-light sm:text-xxs text-xxxs text-center leading-[120%]">
         Steering Leader
       </h4>
       <div class="flex flex-row gap-[10px] items-center">
@@ -93,22 +93,22 @@
     </div>
     <% } %>
   </div>
-  <h2 class="text-xxxl text-text-mid font-sb tracking-[-2px]">
+  <h2 class="md:text-xxxxl sm:text-xxxl text-lg text-text-mid font-sb tracking-[-2px]">
     Department Heads
   </h2>
   <div
-    class="w-[70%] mx-auto flex flex-row flex-wrap gap-[50px] justify-center"
+    class="lg:w-[70%] md:w-[80%] sm:w-[90%] w-[100%] mx-auto flex flex-row flex-wrap gap-[50px] justify-center"
   >
     <% for (var i = 0; i < data.heads.length; i++ ) { %>
-    <div class="w-[180px] flex flex-col gap-[5px] items-center">
+    <div class="w-[180px] max-[600px]:w-[150px] max-[400px]:w-[110px] flex flex-col gap-[5px] items-center">
       <img
         src="<%= data.heads[i].img %>"
         class="w-[100%] aspect-square object-cover"
       />
-      <h3 class="font-r text-text-main text-xs leading-[120%]">
+      <h3 class="font-r text-text-main sm:text-xs text-xxs text-center leading-[120%]">
         <%= data.heads[i].name %>
       </h3>
-      <h4 class="font-r text-text-light text-xxs leading-[120%]">
+      <h4 class="font-r text-text-light sm:text-xxs text-xxxs text-center leading-[120%]">
         <%= data.heads[i].department %>
       </h4>
       <div class="flex flex-row gap-[10px] items-center">
@@ -125,19 +125,19 @@
     </div>
     <% } %>
   </div>
-  <h2 class="text-xxxl text-text-mid font-sb tracking-[-2px]">Members</h2>
-  <div class="swiper member-swiper w-[70%]" id="member">
-    <div class="swiper-wrapper ml-[-1%]">
+  <h2 class="md:text-xxxxl sm:text-xxxl text-lg text-text-mid font-sb tracking-[-2px]">Members</h2>
+  <div class="lg:w-[70%] md:w-[80%] w-[90%] swiper member-swiper" id="member">
+    <div class="swiper-wrapper md:ml-[-1%] ml-[1%]">
       <% for (var i = 0; i < data.members.length; i++ ) { %>
       <div class="swiper-slide">
         <div
-          class="bg-primary-mid w-[200px] h-[210px] flex flex-col items-center justify-between"
+          class="bg-primary-mid md:w-[200px] md:h-[200px] w-[150px] h-[150px] max-[400px]:w-[118px]  max-[400px]:w-[118px] max-[400px]:h-[118px] flex flex-col items-center justify-between"
         >
           <img
             src="<%= data.members[i].img %>"
-            class="w-[180px] aspect-square object-cover"
+            class="w-[85%] aspect-square object-cover"
           />
-          <h5 class="font-r text-xs text-text-main">
+          <h5 class="font-r md:text-xs sm:text-xxs text-xxxs text-text-main">
             <%= data.members[i].name %>
           </h5>
         </div>
