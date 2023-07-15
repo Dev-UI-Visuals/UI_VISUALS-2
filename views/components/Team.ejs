@@ -37,7 +37,7 @@
     </div>
     <div class="flex flex-col items-center gap-[5px]">
       <img
-        src="https://lh3.googleusercontent.com/a-/AD_cMMQFqvkX9XAQlcmqa8Df0XOcz2pjg4ncwgrf08hSys0D6Q=s250"
+        src="/image/team/Abhisek_Sitaula.png"
         class="h-[180px] aspect-square object-cover"
       />
       <h3 class="font-r text-text-main text-sm leading-[120%]">
@@ -130,9 +130,16 @@
     <div class="swiper-wrapper ml-[-1%]">
       <% for (var i = 0; i < data.members.length; i++ ) { %>
       <div class="swiper-slide">
-        <div class="bg-primary-mid w-[200px] h-[210px] flex flex-col items-center justify-between">
-          <img src="<%= data.members[i].img %>" class="w-[180px] aspect-square object-cover"/>
-          <h5 class="font-r text-xs text-text-main"><%= data.members[i].name %></h5>
+        <div
+          class="bg-primary-mid w-[200px] h-[210px] flex flex-col items-center justify-between"
+        >
+          <img
+            src="<%= data.members[i].img %>"
+            class="w-[180px] aspect-square object-cover"
+          />
+          <h5 class="font-r text-xs text-text-main">
+            <%= data.members[i].name %>
+          </h5>
         </div>
       </div>
       <% } %>

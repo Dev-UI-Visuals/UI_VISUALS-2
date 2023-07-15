@@ -113,20 +113,26 @@ var HeaderSwiper = new Swiper(".header-swiper", {
 var navElements = document.getElementById("#nav");
 window.addEventListener('scroll', function () {
     const offset = window.pageYOffset;
-    if (offset > 100 && offset < 600) {
-        nav.classList.add('bg-nav-light')
-        nav.classList.remove('bg-transparent')
-        nav.classList.remove('bg-nav-main')
+    if (offset > 100 && offset < 500) {
+        nav.classList.add('bg-nav-light');
+        nav.classList.remove('shadow-sm');
+        nav.classList.remove('bg-transparent');
+        nav.classList.remove('bg-nav-main');
+        nav.classList.remove('shadow-gray-250');
     }
-    else if (offset >= 600) {
-        nav.classList.add('bg-nav-main')
-        nav.classList.remove('bg-nav-light')
-        nav.classList.remove('bg-transparent')
+    else if (offset >= 500) {
+        nav.classList.add('bg-nav-main');
+        nav.classList.add('shadow-sm');
+        nav.classList.add('shadow-gray-250');
+        nav.classList.remove('bg-nav-light');
+        nav.classList.remove('bg-transparent');
     }
     else {
-        nav.classList.add('bg-transparent')
-        nav.classList.remove('bg-nav-main')
-        nav.classList.remove('bg-nav-light')
+        nav.classList.add('bg-transparent');
+        nav.classList.remove('shadow-sm');
+        nav.classList.remove('bg-nav-main');
+        nav.classList.remove('bg-nav-light');
+        nav.classList.remove('shadow-gray-250');
     }
 });
 var departmentCounter = document.getElementById("department-counter");
