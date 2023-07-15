@@ -107,8 +107,8 @@ setButton(true);
 function seeMoreEvents(isMore) {
     var EventsElement = document.getElementById("events");
     if (isMore) {
-        for (let i = 3; i < moreEvents.length ; i++) {
-            EventsElement.innerHTML += `<div class="w-[330px] min-h-[250px] mt-[25px] bg-[#e2e2e2] flex flex-col justify-start">
+        for (let i = 3; i < moreEvents.length; i++) {
+            EventsElement.innerHTML += `<div class="lg:w-[320px] md:w-[300px] sm:w-[45%] w-[90%] min-h-[250px] mt-[50px] bg-[#e2e2e2] flex flex-col justify-start"">
             <img src="${moreEvents[i].profileImage}" class="w-[100%] h-[200px] object-cover"/>
             <div class="px-[20px] py-[15px] flex flex-col gap-[2px]">
             <h3 class="font-md text-text-main text-sm">${moreEvents[i].name}</h3>
@@ -135,25 +135,46 @@ function seeMoreEvents(isMore) {
             {
                 duration: .4,
                 scrollTo: {
-                    y: "#events",
-                    offsetY: 0
+                    y: "#button",
+                    offsetY: 700
                 }
             }
         )
     } else {
-        moreEvents.forEach((curr, indx) => {
-            EventsElement.innerHTML = "";
-            gsap.to(window,
-                {
-                    duration: .4,
-                    scrollTo: {
-                        y: "#top-events",
-                        offsetY: 130
-                    }
+        EventsElement.innerHTML = ''
+        for (let i = 0; i <3; i++) {
+            EventsElement.innerHTML += `<div class="lg:w-[320px] md:w-[300px] sm:w-[45%] w-[90%] min-h-[250px] mt-[25px] bg-[#e2e2e2] flex flex-col justify-start"">
+            <img src="${moreEvents[i].profileImage}" class="w-[100%] h-[200px] object-cover"/>
+            <div class="px-[20px] py-[15px] flex flex-col gap-[2px]">
+            <h3 class="font-md text-text-main text-sm">${moreEvents[i].name}</h3>
+              <div  class="flex flex-row items-center gap-[5px] text-text-main">
+                <i  class="uil uil-location-point text-rg"></i>
+                <h5 class="text-xxs">${moreEvents[i].location}</h5>
+              </div>
+              <div  class="flex flex-row items-center gap-[5px] text-text-main">
+                <i class="uil uil-calendar-alt text-rg"></i>
+                <h5 class="text-xxs">${moreEvents[i].date}</h5>
+              </div>
+              <h5 class="text-xs text-text-main min-h-[190px]">
+                ${moreEvents[i].description[0].substr(0, 220) + "..."}
+              </h5>
+              <a class="mx-[auto] mt-[10px]" href=${"/event/" + moreEvents[i]?.id} target="_blank">
+              <button class="bg-text-light hover:bg-text-mid duration-500 px-[30px] py-[10px] text-xxs text-primary-main">Read More</button>
+            </a>
+            </div>
+          </div>`
+
+        }
+        gsap.to(window,
+            {
+                duration: .4,
+                scrollTo: {
+                    y: "#events",
+                    offsetY: 130
                 }
-            )
-            setButton(true)
-        })
+            }
+        )
+        setButton(true)
     }
 
 }
