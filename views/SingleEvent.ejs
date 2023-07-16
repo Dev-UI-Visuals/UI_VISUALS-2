@@ -86,24 +86,22 @@
       </div>
     </div>
     <div
-      class="flex flex-col items-center gap-[20px] bg-gradient-to-b from-primary-main to-primary-mid"
+      class="px-[15%] py-[30px] flex flex-col items-center gap-[20px] bg-gradient-to-b from-primary-main to-primary-mid"
     >
-      <!-- <img src="<%= data.headerImage %>" class="mt-[10px] w-[100%] h-[400px] object-cover" /> -->
-      <div class="flex-col event-content">
-        <p><%= data.description[0] %></p>
-        <div class="flex-row event-image-gallery">
-          <% for (var i = 0; i < data.images.length; i++) { %>
-          <img src="<%= data.images[i] %>" />
-          <% } %>
-        </div>
-        <% for (var i = 1; i < data.description.length; i++) { %>
-        <p><%= data.description[i] %></p>
-        <% } %> <% if (data.youtubeCode) { %>
+      <% for (var i = 0; i < data.description.length; i++) { %> <%
+      if(data.description[i].paragraph){ %>
+      <p class="font-rg text-xs text-text-main leading-[180%]">
+        <%= data.description[i].paragraph %>
+      </p>
+      <% } else{%>
+      <img src="<%= data.description[i].image %>" class="w-[90%]"/>
+      <% } %> <% } %>
+          <% if (data.youtubeCode) { %>
         <iframe
           src="https://www.youtube.com/embed/<%= data.youtubeCode %>"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowfullscreen class="w-[90%] h-[500px]"
         ></iframe>
         <% } %>
       </div>

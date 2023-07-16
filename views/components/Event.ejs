@@ -14,7 +14,7 @@
           <i class="uil uil-calendar-alt text-rg"></i>
           <h5 class="text-xxs"><%= data.events[i].date %></h5>
         </div>
-        <h5 class="text-xs text-text-main min-h-[190px]"><%= data.events[i].description[0].substring(0, 220) %>..</h5>
+        <h5 class="text-xs text-text-main min-h-[190px]"><%= data.events[i].description[0].paragraph?.substring(0, 220) %>..</h5>
         <a href="/event/<%= data.events[i].id %>" class="mx-[auto] mt-[10px]" target="_blank">
           <button class="bg-text-light hover:bg-text-mid duration-500 px-[30px] py-[10px] text-xxs text-primary-main">Read More</button>
         </a>

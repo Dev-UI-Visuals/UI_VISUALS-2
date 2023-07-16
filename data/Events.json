@@ -2,7 +2,7 @@
     {
         "id": "herald-code-brisk-hackathon",
         "name": "Herald Code Brisk Hackathon",
-        "type":"Major Event",
+        "type": "Major Event",
         "location": "Kuri Village, Kalinchowk",
         "date": "2023-04-23",
         "headerImage": [
@@ -10,25 +10,63 @@
             "/image/Code_Bricks_Event_1.png",
             "https://heraldcollege.edu.np/storage/uploads/Herald%20Code%20Brisk_1676978644.jpg",
             "https://heraldcollege.edu.np/storage/uploads/Herald%20Code%20Brisk%20Winner_1676978715.jpg"
-
         ],
         "profileImage": "/image/events/Code_Brisk.png",
         "description": [
-            "Herald DevCorps UI Visual Community, a student-led community at Herald College Kathmandu, successfully organized the nonstop 24-hour 'Code Brisk Hackathon 2023', at Kuri Village Kalinchowk. Situated at an altitude of 3447m above sea level, Code Brisk marks the hackathon held at the highest altitude. A total of 13 colleges participated in the hackathon, with three outstanding teams chosen to construct their prototypes at Kalinchowk. The primary theme of this competition was to boost the tourism and hospitality sector of Kalinchowk through innovative and practical prototypes created by the top three teams.",
-            "'Our community's unwavering effort and dedication to this project is commendable and has resulted in an incredible outcome. It is a testament to the passion and talent within our community, and I am proud of every one of you', says Mr. Prakash Shrestha, the CEO of Herald College Kathmandu, expressing his gratitude towards the organizing team.Herald College Kathmandu congratulates the winning team, Virinchi College - Team Everest for their revolutionary project, 'Tidy Town', which employs sensors to tackle waste management issues and offers a practical way of waste disposal. We would also like to extend our appreciation to all the participating colleges. Ms. Sujata Thapa, Head of Herald Devcorps, also praised the organizing committee and the top three colleges, “The effort of everyone in our community is reflected in the incredible work accomplished, and I am honored to be a part of it. Additionally, the top 3 teams presented truly impressive and achievable ideas, leaving us amazed."
+            {
+                "paragraph": "Herald DevCorps UI Visual Community, a student-led community at Herald College Kathmandu, successfully organized the nonstop 24-hour 'Code Brisk Hackathon 2023', at Kuri Village Kalinchowk. Situated at an altitude of 3447m above sea level, Code Brisk marks the hackathon held at the highest altitude.",
+                "image": null
+            },
+            {
+                "paragraph": "A total of 13 colleges participated in the hackathon, with three outstanding teams chosen to construct their prototypes at Kalinchowk. The primary theme of this competition was to boost the tourism and hospitality sector of Kalinchowk through innovative and practical prototypes created by the top three teams.",
+                "image": null
+            },
+            {
+                "paragraph": " Our community's unwavering effort and dedication to this project is commendable and has resulted in an incredible outcome. It is a testament to the passion and talent within our community, and I am proud of every one of you, says Mr. Prakash Shrestha, the CEO of Herald College Kathmandu, expressing his gratitude towards the organizing team.",
+                "image": null
+            },
+            {
+                "paragraph": "Ms. Sujata Thapa, Head of Herald Devcorps, also praised the organizing committee and the top three colleges, “The effort of everyone in our community is reflected in the incredible work accomplished, and I am honored to be a part of it. Additionally, the top 3 teams presented truly impressive and achievable ideas, leaving us amazed.",
+                "image": null
+            },
+            {
+                "paragraph": "Herald College Kathmandu congratulates the winning team, Virinchi College - Team Everest for their revolutionary project, 'Tidy Town', which employs sensors to tackle waste management issues and offers a practical way of waste disposal. We would also like to extend our appreciation to all the participating colleges.",
+                "image": null
+            },
+            {
+                "paragraph": null,
+                "image": "/image/events/Code_Brisk_1.png"
+            },
+            {
+                "paragraph": "Furthermore, the ideas of the runner-up teams were: Amrit Science Campus (ASCOL): 'Prawas', a mobile app that facilitates transport and lodging options for the visitors of Kuri Village.",
+                "image": null
+            },
+            {
+                "paragraph": null,
+                "image": "/image/events/Code_Brisk_2.png"
+            },
+            {
+                "paragraph": "The British College: 'Snowhub', an online platform that uses customer feedback to suggest optimal hotels and implements intelligent pricing strategies..",
+                "image": null
+            },
+            {
+                "paragraph": null,
+                "image": "/image/events/Code_Brisk_3.png"
+            },
+            {
+                "paragraph": "The Code Brisk Hackathon 2023 was a resounding success and demonstrated the exceptional creativity and technical skill of the students in Nepal.",
+                "image": null
+            }
         ],
         "youtubeCode": "50aIeMJ5xyQ",
         "images": [
-            "/image/events/Code_Brisk_1.png",
-            "/image/events/Code_Brisk_1.png",
-            "/image/events/Code_Brisk_1.png",
-            "/image/events/Code_Brisk_1.png"
+            "/image/events/Code_Brisk_3.png"
         ]
     },
     {
         "id": "upc-design-hunt",
         "name": "UPC Design Hunt",
-        "type":"Minor Event",
+        "type": "Minor Event",
         "location": "Herald College, Naxal",
         "date": "2023-02-09",
         "headerImage": "/image/events/UPC_Design_Hunt_1.png",
@@ -42,7 +80,7 @@
     {
         "id": "vision-quest",
         "name": "Vision Quest",
-        "type":"Minor Event",
+        "type": "Minor Event",
         "location": "Herald College, Naxal",
         "date": "2022-09-01",
         "headerImage": "/image/events/Vision_Quest_1.png",
@@ -56,19 +94,21 @@
     {
         "id": "photoshop-session",
         "name": "Photoshop Session",
-        "type":"Minor Event",
+        "type": "Minor Event",
         "date": "2022-04-12",
         "location": "Herald College, Naxal",
         "headerImage": "/image/events/Photoshop_Session_1.png",
         "profileImage": "/image/events/Photoshop_Session.png",
-        "description": ["UI Visuals successfully organized a session on Photoshop Session for beginners. The event provided an opportunity for participants to learn how to use Photoshop tools to edit and manipulate images, as well as design minimalistic posters. The session was beneficial for students who are starting their journey in design and editing, as well as those who want to become familiar with other Adobe software in the future. Participants were able to book their seats by filling out a form and joining the event. UI Visuals hopes that the knowledge and skills gained from this event will be useful for participants in their future design endeavors."],
+        "description": [
+            "UI Visuals successfully organized a session on Photoshop Session for beginners. The event provided an opportunity for participants to learn how to use Photoshop tools to edit and manipulate images, as well as design minimalistic posters. The session was beneficial for students who are starting their journey in design and editing, as well as those who want to become familiar with other Adobe software in the future. Participants were able to book their seats by filling out a form and joining the event. UI Visuals hopes that the knowledge and skills gained from this event will be useful for participants in their future design endeavors."
+        ],
         "youtubeCode": null,
         "images": []
     },
     {
         "id": "photography-session",
         "name": "Photography Session",
-        "type":"Minor Event",
+        "type": "Minor Event",
         "date": "2021-11-01",
         "location": "Kumari Hall",
         "headerImage": "/image/Events/Photography_Session_1.png",
@@ -80,9 +120,9 @@
         "images": []
     },
     {
-        "id":"figma-session",
+        "id": "figma-session",
         "name": "Figma Session",
-        "type":"Minor Event",
+        "type": "Minor Event",
         "date": "2021-09-28",
         "location": "Herald College, Naxal",
         "headerImage": "/image/events/Figma_Session_1.png",
