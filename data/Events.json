@@ -5,7 +5,13 @@
         "type":"Major Event",
         "location": "Kuri Village, Kalinchowk",
         "date": "2023-04-23",
-        "headerImage": "https://heraldcollege.edu.np/storage/post/HCK-Code-Brisk-post_1676978748.jpg",
+        "headerImage": [
+            "https://heraldcollege.edu.np/storage/post/HCK-Code-Brisk-post_1676978748.jpg",
+            "/image/Code_Bricks_Event_1.png",
+            "https://heraldcollege.edu.np/storage/uploads/Herald%20Code%20Brisk_1676978644.jpg",
+            "https://heraldcollege.edu.np/storage/uploads/Herald%20Code%20Brisk%20Winner_1676978715.jpg"
+
+        ],
         "profileImage": "/image/events/Code_Brisk.png",
         "description": [
             "Herald DevCorps UI Visual Community, a student-led community at Herald College Kathmandu, successfully organized the nonstop 24-hour 'Code Brisk Hackathon 2023', at Kuri Village Kalinchowk. Situated at an altitude of 3447m above sea level, Code Brisk marks the hackathon held at the highest altitude. A total of 13 colleges participated in the hackathon, with three outstanding teams chosen to construct their prototypes at Kalinchowk. The primary theme of this competition was to boost the tourism and hospitality sector of Kalinchowk through innovative and practical prototypes created by the top three teams.",

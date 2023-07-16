@@ -6,7 +6,7 @@
   </head>
   <body>
     <div
-      class="flex flex-col bg w[100%] h-[75vh] bg-gradient-to-b from-primary-main via-transparent to-primary-mid"
+      class="flex flex-col justify-between bg w[100%] h-[70vh] pb-[30px] bg-gradient-to-b from-primary-main via-transparent to-primary-mid"
       id="bg"
     >
       <div
@@ -48,24 +48,27 @@
           >
         </div>
       </div>
-      <div class="z-[2]">
-        <h2 class="font-sb text-xl text-text-main"><%= data.name %></h2>
+      <div class="px-[10%] z-[2] flex flex-col items-center">
+        <h2 class="font-sb text-xxxl text-text-main leading-[120%]">
+          <%= data.name %>
+        </h2>
         <span>
-          <div class="flex-row" style="align-items: center; gap: 5px">
-            <i class="uil uil-map-marker"></i>
-            <p><%= data.location %></p>
+          <div class="text-text-main flex flex-row items-center gap-[5px]">
+            <i class="uil uil-map-marker text-rg"></i>
+            <p class="font-r text-xs"><%= data.location %></p>
           </div>
         </span>
         <span>
-          <div class="flex-row" style="align-items: center; gap: 5px">
-            <i class="uil uil-calendar"></i>
-            <p><%= data.date %></p>
+          <div class="text-text-main flex flex-row items-center gap-[5px]">
+            <i class="uil uil-schedule text-rg"></i>
+            <p class="font-r text-xs"><%= data.date %></p>
           </div>
         </span>
       </div>
     </div>
-    <div class="swiper header-swiper w-[100%] h-[75vh] absolute top-[0px]">
+    <div class="swiper header-swiper w-[100%] h-[70vh] absolute top-[0px]">
       <div class="swiper-wrapper">
+        <% for(var i = 0;i < data.headerImage.length;i++) {%>
         <div class="swiper-slide">
           <div
             class="header-image"
@@ -75,78 +78,16 @@
                   rgb(237, 237, 237, 0.6),
                   rgb(237, 237, 237, 1)
                 ),
-                url('/image/Code_Bricks_Event_1.png');
+                url('<%= data.headerImage[i] %>');
             "
           ></div>
         </div>
-        <div class="swiper-slide">
-          <div
-            class="header-image"
-            style="
-              background: linear-gradient(
-                  rgb(237, 237, 237, 1),
-                  rgb(237, 237, 237, 0.6),
-                  rgb(237, 237, 237, 1)
-                ),
-                url('/image/Code_Bricks_Event_2.png');
-            "
-          ></div>
-        </div>
-        <div class="swiper-slide">
-          <div
-            class="header-image"
-            style="
-              background: linear-gradient(
-                  rgb(237, 237, 237, 1),
-                  rgb(237, 237, 237, 0.6),
-                  rgb(237, 237, 237, 1)
-                ),
-                url('/image/Metting.png');
-            "
-          ></div>
-        </div>
-        <div class="swiper-slide">
-          <div
-            class="header-image"
-            style="
-              background: linear-gradient(
-                  rgb(237, 237, 237, 1),
-                  rgb(237, 237, 237, 0.6),
-                  rgb(237, 237, 237, 1)
-                ),
-                url('/image/Code_Bricks_Event_1.png');
-            "
-          ></div>
-        </div>
-        <div class="swiper-slide">
-          <div
-            class="header-image"
-            style="
-              background: linear-gradient(
-                  rgb(237, 237, 237, 1),
-                  rgb(237, 237, 237, 0.6),
-                  rgb(237, 237, 237, 1)
-                ),
-                url('/image/Code_Bricks_Event_2.png');
-            "
-          ></div>
-        </div>
-        <div class="swiper-slide">
-          <div
-            class="header-image"
-            style="
-              background: linear-gradient(
-                  rgb(237, 237, 237, 1),
-                  rgb(237, 237, 237, 0.6),
-                  rgb(237, 237, 237, 1)
-                ),
-                url('/image/Metting.png');
-            "
-          ></div>
-        </div>
+        <% } %>
       </div>
     </div>
-    <div class="flex flex-col items-center gap-[20px]">
+    <div
+      class="flex flex-col items-center gap-[20px] bg-gradient-to-b from-primary-main to-primary-mid"
+    >
       <!-- <img src="<%= data.headerImage %>" class="mt-[10px] w-[100%] h-[400px] object-cover" /> -->
       <div class="flex-col event-content">
         <p><%= data.description[0] %></p>
