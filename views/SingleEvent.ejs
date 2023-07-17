@@ -6,11 +6,11 @@
   </head>
   <body>
     <div
-      class="flex flex-col justify-between bg w[100%] h-[70vh] pb-[30px] bg-gradient-to-b from-primary-main via-transparent to-primary-mid"
+      class="flex flex-col justify-end bg w[100%] h-[70vh] pb-[30px] bg-gradient-to-b from-primary-main via-transparent to-primary-mid"
       id="bg"
     >
       <div
-        class="w-[100%] py-[20px] px-[10%] z-[4] duration-500 sticky top-0 flex flex-col md:flex-row justify-between gap-[20px] items-center bg-transparent flex flex-row"
+        class="w-[100%] py-[20px] px-[10%] z-[4] duration-500 fixed top-0 flex flex-col md:flex-row justify-between gap-[20px] items-center bg-transparent flex flex-row"
         id="nav"
       >
         <!-- Div nav-img contain heading nav images  -->
@@ -19,7 +19,7 @@
           <div class="w-[1px] h-[35px] bg-text-main"></div>
           <img src="/image/UI_BLACK.png" class="w-[55px] object-contain" />
         </div>
-        <!-- Div nav-items contain links for scroll navigation -->
+        <!-- Div nav-items contain links for link -->
         <div class="flex flex-row md:gap-[50px] gap-[20px] items-center">
           <a href="/"
             ><h4 class="text-text-main font-r text-xs cursor-pointer">
@@ -106,5 +106,7 @@
         <% } %>
       </div>
     </div>
+    <%- include('./components/Contact')
+    %>
   </body>
 </html>

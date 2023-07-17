@@ -7,11 +7,11 @@
         "date": "2023-04-23",
         "headerImage": [
             "https://heraldcollege.edu.np/storage/post/HCK-Code-Brisk-post_1676978748.jpg",
-            "/image/Code_Bricks_Event_1.png",
+            "/image/events/Code_Brisk/Code_Brisk_1.png",
             "https://heraldcollege.edu.np/storage/uploads/Herald%20Code%20Brisk_1676978644.jpg",
             "https://heraldcollege.edu.np/storage/uploads/Herald%20Code%20Brisk%20Winner_1676978715.jpg"
         ],
-        "profileImage": "/image/events/Code_Brisk.png",
+        "profileImage": "/image/events/Code_Brisk/Code_Brisk.png",
         "description": [
             {
                 "paragraph": "Herald DevCorps UI Visual Community, a student-led community at Herald College Kathmandu, successfully organized the nonstop 24-hour 'Code Brisk Hackathon 2023', at Kuri Village Kalinchowk. Situated at an altitude of 3447m above sea level, Code Brisk marks the hackathon held at the highest altitude.",
@@ -35,7 +35,7 @@
             },
             {
                 "paragraph": null,
-                "image": "/image/events/Code_Brisk_1.png"
+                "image": "/image/events/Code_Brisk/Code_Brisk_1.png"
             },
             {
                 "paragraph": "Furthermore, the ideas of the runner-up teams were: Amrit Science Campus (ASCOL): 'Prawas', a mobile app that facilitates transport and lodging options for the visitors of Kuri Village.",
@@ -43,7 +43,7 @@
             },
             {
                 "paragraph": null,
-                "image": "/image/events/Code_Brisk_2.png"
+                "image": "/image/events/Code_Brisk/Code_Brisk_2.png"
             },
             {
                 "paragraph": "The British College: 'Snowhub', an online platform that uses customer feedback to suggest optimal hotels and implements intelligent pricing strategies..",
@@ -51,7 +51,7 @@
             },
             {
                 "paragraph": null,
-                "image": "/image/events/Code_Brisk_3.png"
+                "image": "/image/events/Code_Brisk/Code_Brisk_3.png"
             },
             {
                 "paragraph": "The Code Brisk Hackathon 2023 was a resounding success and demonstrated the exceptional creativity and technical skill of the students in Nepal.",
@@ -60,7 +60,7 @@
         ],
         "youtubeCode": "50aIeMJ5xyQ",
         "images": [
-            "/image/events/Code_Brisk_3.png"
+            "/image/events/Code_Brisk/Code_Brisk_3.png"
         ]
     },
     {
