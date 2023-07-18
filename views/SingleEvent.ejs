@@ -2,6 +2,13 @@
 <html lang="en">
   <head>
     <%- include('./components/Header') %>
+    <meta property="og:image" content="<%= data.profileImage%>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="UI Visuals" />
+    <meta
+      name="description"
+      content="<%= data.description[0].paragraph %>"
+    />
     <title>UI Visuals | <%= data.name %></title>
   </head>
   <body>
