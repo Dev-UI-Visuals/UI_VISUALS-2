@@ -2,7 +2,6 @@
     {
         "id": "herald-code-brisk-hackathon",
         "name": "Herald Code Brisk Hackathon",
-        "type": "Major Event",
         "location": "Kuri Village, Kalinchowk",
         "date": "2023-04-23",
         "headerImage": [
@@ -66,13 +65,29 @@
     {
         "id": "upc-design-hunt",
         "name": "UPC Design Hunt",
-        "type": "Minor Event",
         "location": "Herald College, Naxal",
         "date": "2023-02-09",
-        "headerImage": "/image/events/UPC_Design_Hunt_1.png",
-        "profileImage": "/image/events/UPC_Design_Hunt.png",
+        "headerImage": [
+            "/image/events/UPC_Design_Hunt/UPC_Design_Hunt_1.png",
+            "https://lh3.googleusercontent.com/chat_attachment/AOFd8YYHlV91B1_YAXr-0AhsrzdIbFfQdnLI8u0aAsByCw-pgUW1X2fbPIxml_5ps-Az29YT3-QXl4Rm4tKw3ApkufiVgQvYNh_Xp6GxRgiE6YiyvHaRNSv5bkGODDvGNiorndPDS3oMKZbVPkrkTNTmzv6EgdRp10exeipw4MruayGn5gpAY2d3QQ7cF_X1ELxbEX5fI4xOLgu0jihU4FizvMWCogRVMj6Ngga4-j69IgCb41rLHDcah8bmD9-Z4zJ0AQYIbEHt18ZcKSle2ZJC4LM0guQXyMvIBIsVqyiBbhHwFkcQ5g7_tF0Ex05lWw=w512"
+        ],
+        "profileImage": "/image/events/UPC_Design_Hunt/UPC_Design_Hunt.png",
         "description": [
-            "UI Visuals organized an exciting event called Design Hunt, aimed at providing a platform for students to showcase their creativity and design skills. The event focused on designing a mobile app with unique features for new UPC early birds. The event was executed successfully, thanks to the efforts and support of our members. The event aimed to challenge participants' creativity and problem-solving skills while promoting collaboration and teamwork. Participants were given the resources to design a mobile app with unique features for new UPC early birds, showcasing their skills and potential in the UI and Visual Design field. The event encouraged participants to explore their creativity and learn from their peers and community leaders."
+            {
+                "paragraph":"UI Visuals recently organized an exciting event called Design Hunt, aimed at providing a platform for students to showcase their creativity and design skills. The event focused on designing a mobile app with unique features for new UPC early birds. The event was executed successfully, thanks to the efforts and support of our members.",
+                "image":null    
+            },
+            {
+                "paragraph":"The event was structured to challenge participants' creativity and problem-solving abilities while encouraging collaboration and teamwork. Participants were provided with the necessary materials and resources to design their mobile app on paper, and they had to come up with unique and innovative features that would attract and engage new UPC early birds. The Design Hunt event was an excellent opportunity for students to showcase their skills and potential in the field of UI and Visual Design. It allowed them to explore their creativity and come up with new and innovative ideas while learning from their peers and community leaders.",
+                "image":null
+            },{
+                "paragraph":null,
+                "image":"/image/events/UPC_Design_Hunt/UPC_Design_Hunt_3.png"
+            },
+            {
+                "paragraph":"Overall, the event was a huge success, and we are proud of our members for their dedication and hard work in organizing and executing the event. We look forward to organizing more such events in the future and providing students with opportunities to showcase their skills and creativity in the field of UI and Visual Design.",
+                "image":null
+            }
         ],
         "youtubeCode": null,
         "images": []
@@ -80,13 +95,30 @@
     {
         "id": "vision-quest",
         "name": "Vision Quest",
-        "type": "Minor Event",
         "location": "Herald College, Naxal",
         "date": "2022-09-01",
-        "headerImage": "/image/events/Vision_Quest_1.png",
-        "profileImage": "/image/events/Vision_Quest.png",
+        "headerImage": [
+            "/image/events/Vision_Quest/Vision_Quest_3.png",
+            "/image/events/Vision_Quest/Vision_Quest_1.png"
+        ],
+        "profileImage": "/image/events/Vision_Quest/Vision_Quest.png",
         "description": [
-            "UI Visuals organized a remarkable event to help +2 students interested in the field of IT. The event named Vision Quest: Sneak Peek into the Design World was organized to give aspiring software developers and designers a first-hand experience of the design process. The event was specially designed for +2 students who were looking forward to pursuing a career in the field of IT. The event focused on two key topics, namely 'Software Development' and 'UI/UX Design'. Both of these topics are critical to the IT industry, and understanding them is essential for anyone looking to make a career in the field. The event was curated by the community leaders who had years of experience in these fields and had a lot to share with the participants. The event was a great success, with many students attending and learning a lot about software development and UI/UX design. The participants were enthusiastic, and the experts' presentations were engaging and informative. Overall, the event was an excellent opportunity for +2 students to learn about the IT industry and gain valuable insights into software development and UI/UX design."
+           {
+            "paragraph":"UI Visuals organized a remarkable event to help +2 students interested in the field of IT. The event named Vision Quest: Sneak Peek into the Design World was organized to give aspiring software developers and designers a first-hand experience of the design process. The event was specially designed for +2 students who were looking forward to pursuing a career in the field of IT.",
+            "image":null
+           },
+           {
+            "paragraph":"The event focused on two key topics, namely 'Software Development' and 'UI/UX Design'. Both of these topics are critical to the IT industry, and understanding them is essential for anyone looking to make a career in the field. The event was curated by the community leaders who had years of experience in these fields and had a lot to share with the participants.",
+            "image":null
+           },
+           {
+            "paragraph":null,
+            "image":"/image/events/Vision_Quest/Vision_Quest_2.png"
+           },
+           {
+            "paragraph":"The event was a great success, with many students attending and learning a lot about software development and UI/UX design. The participants were enthusiastic, and the experts' presentations were engaging and informative. Overall, the event was an excellent opportunity for +2 students to learn about the IT industry and gain valuable insights into software development and UI/UX design.",
+            "image":null
+           }
         ],
         "youtubeCode": null,
         "images": []
