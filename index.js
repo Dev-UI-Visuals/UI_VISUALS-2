@@ -32,16 +32,20 @@ app.get("/event/:name", function (req, res) {
             return res.render("error");
         } else {
             const parsedData = JSON.parse(data);
-            var eventData = parsedData.filter((curr) => {
+            var eventData = [];
+            var moreEventData = [];
+           parsedData.filter((curr) => {
                 if (curr.id == name.toString()) {
-                    return curr
+                    eventData.push(curr);
+                }else{
+                    moreEventData.push(curr);
                 }
             });
             if (eventData.length == 0) {
                 return res.render("error");
 
             } else {
-                return res.render('SingleEvent', { data: eventData[0] })
+                return res.render('SingleEvent', { data: eventData[0],moreEvent: moreEventData})
             }
         }
     });

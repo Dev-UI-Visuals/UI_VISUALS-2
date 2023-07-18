@@ -14,6 +14,35 @@ function scrollDown(id) {
     )
 }
 
+var MoreEventSwiper = new Swiper(".more-event-swiper", {
+    slidesPerView: 3,
+    spaceBetween: 0,
+    loop: true,
+    autoplay: {
+        delay: 1200,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        1200: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+        },
+        600: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+        },
+        400: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        }
+    }
+});
+MoreEventSwiper.autoplay.stop();
 
 var MemberSwiper = new Swiper(".member-swiper", {
     slidesPerView: 5,

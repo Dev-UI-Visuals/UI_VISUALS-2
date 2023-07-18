@@ -86,7 +86,7 @@
       </div>
     </div>
     <div
-      class="px-[15%] py-[30px] flex flex-col items-center gap-[20px] bg-gradient-to-b from-primary-main to-primary-mid"
+      class="px-[10%] py-[30px] flex flex-col items-center gap-[20px] bg-gradient-to-b from-primary-main to-primary-mid"
     >
       <% for (var i = 0; i < data.description.length; i++) { %> <%
       if(data.description[i].paragraph){ %>
@@ -106,7 +106,7 @@
         <% } %>
       </div>
     </div>
-    <%- include('./components/Contact')
-    %>
+    <%- include('./components/ViewMoreEvent')%>
+    <%- include('./components/Contact')%>
   </body>
 </html>
