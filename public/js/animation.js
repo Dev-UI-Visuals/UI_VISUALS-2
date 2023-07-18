@@ -15,7 +15,7 @@ function scrollDown(id) {
 }
 
 var MoreEventSwiper = new Swiper(".more-event-swiper", {
-    slidesPerView: 3,
+    slidesPerView: 2,
     spaceBetween: 0,
     loop: true,
     autoplay: {
@@ -29,14 +29,18 @@ var MoreEventSwiper = new Swiper(".more-event-swiper", {
     },
     breakpoints: {
         1200: {
-            slidesPerView: 3,
-            spaceBetween: 0,
-        },
-        600: {
             slidesPerView: 2,
             spaceBetween: 0,
         },
+        600: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
         400: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+        200 : {
             slidesPerView: 1,
             spaceBetween: 0,
         }
