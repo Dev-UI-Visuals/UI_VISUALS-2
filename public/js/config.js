@@ -29,6 +29,7 @@ tailwind.config = {
         xxl: '40px',
         xl: '35px',
         lg: "30px",
+        ic:"24px",
         md: "22px",
         rg: "20px",
         sm: "18px",
