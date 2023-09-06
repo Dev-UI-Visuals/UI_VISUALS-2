@@ -43,6 +43,9 @@ tailwind.config = {
         md: '600',
         r: '500',
         l: '400'
+      },
+      screens:{
+        xl:"1500px"
       }
 
     },
