@@ -44,13 +44,14 @@
         "img":"/image/team/Pragati_Kuinkel.png"
     },
     {
-        "name": "Preukti Parajuli",
-        "img": "/image/team/Preukti_Parajuli.png"
-    },
-    {
         "name":"Prajwol Neupane",
         "img":"/image/team/Prajwol_Neupane.png"
     },
+    {
+        "name": "Preukti Parajuli",
+        "img": "/image/team/Preukti_Parajuli.png"
+    },
+
     {
         "name": "Pukar Karki",
         "img": "/image/team/Pukar_Karki.png"

@@ -3,7 +3,7 @@
         "id": "herald-code-brisk-hackathon",
         "name": "Herald Code Brisk Hackathon",
         "location": "Kuri Village, Kalinchowk",
-        "date": "2023-04-23",
+        "date": "From February 15 to 17, 2020",
         "headerImage": [
             "https://heraldcollege.edu.np/storage/post/HCK-Code-Brisk-post_1676978748.jpg",
             "/image/events/Code_Brisk/Code_Brisk_4.png",
@@ -55,7 +55,7 @@
         "id": "visual-mela",
         "name": "Visual  Mela",
         "location": "Herald College, Naxal",
-        "date": "2022-09-01",
+        "date": "From September 24 to November 17, 2021",
         "headerImage": [
             "/image/events/Visual_Mela/Visual_Mela_1.jpg",
             "/image/events/Visual_Mela/Visual_Mela_1.jpg"
@@ -136,7 +136,7 @@
         "id": "upc-design-hunt",
         "name": "UPC Design Hunt",
         "location": "Herald College, Naxal",
-        "date": "2023-02-09",
+        "date": "February 09, 2023",
         "headerImage": [
             "/image/events/UPC_Design_Hunt/UPC_Design_Hunt_1.png",
             "https://lh3.googleusercontent.com/chat_attachment/AOFd8YYHlV91B1_YAXr-0AhsrzdIbFfQdnLI8u0aAsByCw-pgUW1X2fbPIxml_5ps-Az29YT3-QXl4Rm4tKw3ApkufiVgQvYNh_Xp6GxRgiE6YiyvHaRNSv5bkGODDvGNiorndPDS3oMKZbVPkrkTNTmzv6EgdRp10exeipw4MruayGn5gpAY2d3QQ7cF_X1ELxbEX5fI4xOLgu0jihU4FizvMWCogRVMj6Ngga4-j69IgCb41rLHDcah8bmD9-Z4zJ0AQYIbEHt18ZcKSle2ZJC4LM0guQXyMvIBIsVqyiBbhHwFkcQ5g7_tF0Ex05lWw=w512"
@@ -148,8 +148,8 @@
                 "image": null
             },
             {
-                "paragraph": "The event was structured to challenge participants' creativity and problem-solving abilities while encouraging collaboration and teamwork. Participants were provided with the necessary materials and resources to design their mobile app on paper, and they had to come up with unique and innovative features that would attract and engage new UPC early birds. The Design Hunt event was an excellent opportunity for students to showcase their skills and potential in the field of UI and Visual Design. It allowed them to explore their creativity and come up with new and innovative ideas while learning from their peers and community leaders.",
-                "image": null
+                "paragraph":"The event was structured to challenge participants' creativity and problem-solving abilities while encouraging collaboration and teamwork. Participants were provided with the necessary materials and resources to design their mobile app on paper, and they had to come up with unique and innovative features that would attract and engage new UPC early birds. The Design Hunt event was an excellent opportunity for students to showcase their skills and potential in the field of UI and Visual Design. It allowed them to explore their creativity and come up with new and innovative ideas while learning from their peers and community leaders.",
+                "image":null
             },
             {
                 "paragraph": null,
@@ -167,7 +167,7 @@
         "id": "vision-quest",
         "name": "Vision Quest",
         "location": "Herald College, Naxal",
-        "date": "2022-09-01",
+        "date": "September 01, 2022 at 11:00 AM",
         "headerImage": [
             "/image/events/Vision_Quest/Vision_Quest_3.png",
             "/image/events/Vision_Quest/Vision_Quest_1.png"
@@ -193,5 +193,133 @@
         ],
         "youtubeCode": null,
         "images": []
+    },
+    {
+        "id":"photography-poster-design-contest",
+        "name":"Photography and Poster Design Contest",
+        "location": "Via Internet",
+        "date": "June 11, 2021 at 03:00 PM",
+        "profileImage": "/image/events/Photography_Poster_Design_Contest/Photography_Poster_Design_Contest.png",
+        "headerImage":[
+            "/image/events/Photography_Poster_Design_Contest/Photography_Poster_Design_Contest.png"
+        ],
+        "description":[
+            {
+                "paragraph":"UI Visuals organized an exciting Photography and Poster Design competition that was open to all individuals. The competition focused on indoor photography, editing, and designing a poster that could unleash the creativity of participants and make use of their lockdown days.",
+                "image":null
+            },
+            {
+                "paragraph":"The theme for the competition was 'Food,' and participants were required to design a poster for a restaurant using the same photograph clicked for photography. It was essential to ensure that the photo was related to the poster context to be eligible for the judgment.",
+                "image":null
+            },
+            {
+                "paragraph":null,
+                "image": "/image/events/Photography_Poster_Design_Contest/Photography_Poster_Design_Contest_2.png"
+            },
+            {
+                "paragraph":"To participate in the competition, each individual participant had to submit both the photograph and the poster. One winner for each category (Photography and Poster Design) was chosen based on the judgment done on the basis of both social media interaction and judges' decisions. The winners were awarded attractive cash prizes.",
+                "image":null
+            },
+            {
+                "paragraph":"The competition was a fantastic opportunity for photography and design enthusiasts to showcase their talents and creativity and gain valuable experience in the field. The event was well received and enjoyed by all participants",
+                "image":null
+            }
+        ]
+    },
+    {
+        "id":"community-meetup-3.0",
+        "name":"Community Meetup 3.0",
+        "date":"March 12, 2021 at 01:30 PM",
+        "location":"Herald College, Naxal",
+        "profileImage": "/image/events/Community_Meetup_3.0/Community_Meetup_3.0_1.png",
+        "headerImage":[
+            "/image/events/Community_Meetup_3.0/Community_Meetup_3.0_1.png"
+        ],
+        "description":[
+            {
+                "paragraph":"UI Visuals hosted its third community meetup, which was an exclusive opportunity for level 4 and 5 students of Herald College. The event provided attendees with the chance to learn about all the communities within Herald Dev Corps and understand them better.",
+                "image":null
+            },
+            {
+                "paragraph":"The meetup was designed to be a fun session where students could explore and discover their interests and passions. The event encouraged students to become members of the communities they were interested in, which would allow them to collaborate with like-minded individuals and be a part of the positive changes the communities are striving to make.",
+                "image":null
+            },
+            {
+                "paragraph":"UI Visuals is committed to creating a supportive and inclusive community that fosters growth and development among its members. The Community Meetup 3.0 was yet another successful event in achieving this goal, as it provided students with the opportunity to connect with each other and learn about the diverse range of communities available to them.",
+                "image":null
+            }
+        ]
+    },
+    {
+        "id":"webinar_1.0_on_poster_design",
+        "name":"Webinar 1.0 on Poster Design",
+        "date":"July 04, 2020 at 11:00 AM",
+        "location":"Herald College, Naxal",
+        "profileImage": "/image/events/Webinar_1.0_on_Poster_Design/Webinar_1.0_on_Poster_Design_1.png",
+        "headerImage":[
+            "/image/events/Webinar_1.0_on_Poster_Design/Webinar_1.0_on_Poster_Design_1.png"
+        ],
+        "description":[
+            {
+                "paragraph":"UI Visuals organized a webinar on Poster Designing, aimed at individuals who were interested in learning more about the field. The webinar was a 60-minute session led by Senior Designer Mr. Ayush Shakya from InfoDevelopers P. Ltd. Participants had the opportunity to learn about basic techniques in poster designing, guided by an experienced professional with years of industry experience.",
+                "image":null
+            },
+            {
+                "paragraph":"The event was an excellent opportunity for individuals who were looking to expand their knowledge and skill set in the area of poster design. Ayush Shakya shared his knowledge and expertise with participants, providing them with valuable insights into the field and techniques that they could apply in their own work.",
+                "image":null
+            },
+            {
+                "paragraph":"Overall, the webinar was a success, with participants leaving with a better understanding of poster design and the tools and techniques used in the industry. The event was just one example of UI Visuals' commitment to promoting creativity and providing valuable learning opportunities for their community members.",
+                "image":null
+            }
+        ]
+    },
+    {
+        "id":"meetup_2.0",
+        "name":"Meetup 2.0 & Introduction to Designing & Web Portfolio",
+        "date":"January 29, 2020 at 02:00 PM",
+        "location":"Herald College, Naxal",
+        "profileImage": "/image/events/Meetup_2.0/Meetup_2.0_1.png",
+        "headerImage":[
+            "/image/events/Meetup_2.0/Meetup_2.0_1.png"
+        ],
+        "description":[
+            {
+                "paragraph":"The second meetup organized by UI Visuals was focused on the topic of designing and web portfolios. The guest speaker Ayush Shakya and community member Sarjil Napit shared their insights on how to get started with designing, the best tools for designing, and sources of inspiration for design ideas. They also discussed the importance of prioritizing elements in design and the preparation process before starting a project.",
+                "image":null
+            },
+            {
+                "paragraph":null,
+                "image": "/image/events/Meetup_2.0/Meetup_2.0_2.png"
+            },
+            {
+                "paragraph":"Following this, the community co-leader Divya Jyoti Ranjit gave a briefing on the benefits of having a personal web portfolio website. He shared his experience of making his own website and provided tips on how to host the site effectively. The event aimed to equip participants with the knowledge and skills necessary for successful web design and development. Overall, it was a valuable event for anyone interested in this field.",
+                "image":null
+            }
+        ]
+    },
+    {
+        "id":"meetup_1.0",
+        "name":"Meetup 1.0: Introduction to Community and Angular Development",
+        "date":"September 1, 2019 at 12:30 PM",
+        "location":"Herald College, Naxal",
+        "profileImage": "/image/events/Meetup_1.0/Meetup_1.0_1.png",
+        "headerImage":[
+            "/image/events/Meetup_1.0/Meetup_1.0_1.png"
+        ],
+        "description":[
+            {
+                "paragraph":"UI Visuals organized their first event, a Meetup on Introduction to Community and Angular Development. The event was a great success with an informative and engaging presentation by the speaker, Mr. Sanjeev Tamang. The audience had the opportunity to learn about UI, Visuals, Angular and Enterprise Development, and to gain insights into real-time development practices.",
+                "image":null
+            },
+            {
+                "paragraph":null,
+                "image": "/image/events/Meetup_1.0/Meetup_1.0_2.png"
+            },
+            {
+                "paragraph":"Mr. Tamang shared his vast knowledge and experience on the subject, and the attendees were highly impressed with the valuable information and practical advice he provided. The event was a great platform for community members to come together and learn from each other.",
+                "image":null
+            }
+        ]
     }
 ]
