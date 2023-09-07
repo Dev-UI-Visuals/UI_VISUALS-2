@@ -17,7 +17,6 @@ app.get("/", async function (req, res) {
         allData.heads = JSON.parse( await fs.promises.readFile(("data/Head.json"),'utf-8'));
         allData.testimonials = JSON.parse( await fs.promises.readFile(("data/Testimonial.json"),'utf-8'));
         res.render("index", { data: allData });
-        //res.json(allData);
     }catch(e){
         return res.render("error");
     }
